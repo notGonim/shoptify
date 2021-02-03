@@ -12,26 +12,26 @@ export const Home = () => {
                 <div className="home_row">
                     <Product id="123" title="Oppo A31 (Fantasy White, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers"
                         image="https://m.media-amazon.com/images/I/41OQms4W6UL.__AC_SY200_.jpg"
-                        price={77.1} rating={5} />
+                        price={77.1} rating={5} description="adfdsfs"   />
                     <Product id="123dsd" title="XXXXXX"
                         image="https://m.media-amazon.com/images/I/41AYsoOVQwL.__AC_SY200_.jpg"
-                        price={15.9} rating={2} />
+                        price={15.9} rating={2} description="adfdsfs"   />
                 </div>
                 <div className="home_row">
                     <Product id="123asda" title="Oppo A31 (Fantasy White, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers"
                         image="https://m.media-amazon.com/images/I/41OQms4W6UL.__AC_SY200_.jpg"
-                        price={77.1} rating={5} />
+                        price={77.1} rating={5} description="adfdsfs"   />
                     <Product title="XXXXXX" id="123ewrqer"
                         image="https://m.media-amazon.com/images/I/41AYsoOVQwL.__AC_SY200_.jpg"
-                        price={15.9} rating={2} />
+                        price={15.9} rating={2} description="adfdsfs"   />
                     <Product title="XXXXXXXX" id="1werewr23"
                         image="https://m.media-amazon.com/images/I/41jr5nrfFoL.__AC_SY200_.jpg"
-                        price={29.5} rating={4} />
+                        description="adfdsfs"       price={29.5} rating={4} />
                 </div>
                 <div className="home_row">
                     <Product id="123rewrfds" title="Oppo A31 (Fantasy White, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers"
                         image="https://m.media-amazon.com/images/I/41OQms4W6UL.__AC_SY200_.jpg"
-                        price={77.1} rating={5} />
+                    description="adfdsfs"    price={77.1} rating={5} />
                 </div>
             </div>
 
