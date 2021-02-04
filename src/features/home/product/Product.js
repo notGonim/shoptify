@@ -5,7 +5,6 @@ export const Product = ({ id, title, image, price, description, rating }) => {
 
     const [{ basket }, dispatch] = useStateValue()
 
-    console.log(basket)
     const addToBasket = () => {
         dispatch({
             type: "ADD_TO_BASKET",
