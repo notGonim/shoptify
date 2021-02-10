@@ -44,3 +44,5 @@ export const Header = () => {
         </div>
     )
 }
+
+// check wether the user is logged in or not to change the header
