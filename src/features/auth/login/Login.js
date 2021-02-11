@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { auth } from '../../../firebase'
 import './login.scss'
 
 export const Login = () => {
@@ -11,6 +12,10 @@ export const Login = () => {
     }
     const register = e => {
         e.preventDefault()
+        auth.createUserWithEmailAndPassword(email, password)
+            .then((auth) => {
+                console.log(auth)
+            }).catch(err => console.log(err.message))
     }
 
     return (
