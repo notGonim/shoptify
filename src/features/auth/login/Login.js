@@ -1,14 +1,20 @@
 import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 import { auth } from '../../../firebase'
 import './login.scss'
 
 export const Login = () => {
 
+    const history = useHistory()
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
 
     const signIn = e => {
         e.preventDefault()
+        auth.signInWithEmailAndPassword(email, password)
+            .then((auth) => {
+                history.push('/')
+            }).catch(err => console.log(err.message))
     }
     const register = e => {
         e.preventDefault()
@@ -16,6 +22,8 @@ export const Login = () => {
             .then((auth) => {
                 console.log(auth)
             }).catch(err => console.log(err.message))
+        if (auth)
+            history.push('/')
     }
 
     return (
