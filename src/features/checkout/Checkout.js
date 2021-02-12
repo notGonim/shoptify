@@ -26,7 +26,7 @@ export const Checkout = () => {
             </div>
             <div className="checkout_right">
                 <Subtotal />
-
+// think about the system design
             </div>
         </div>
     )
